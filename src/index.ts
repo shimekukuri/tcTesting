@@ -1,5 +1,11 @@
-export const sum = (a: number, b: number): number => {
-  return 0;
+const meep = () => {
+  let yolo = {
+    meep: 'swag',
+  };
+  let test = yolo;
+  test.meep = 'true';
+
+  console.log(yolo.meep);
 };
 
-console.log('meep');
+meep();
